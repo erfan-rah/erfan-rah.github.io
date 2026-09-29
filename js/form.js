@@ -11,7 +11,7 @@ const form = () => {
 
     async function getData() {
       try {
-        const response = await fetch("mail.php", {
+        const response = await fetch("https://formspree.io/f/mppwkyzz", {
           method: "POST",
           body: formData,
         });
