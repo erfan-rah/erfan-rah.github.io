@@ -19,6 +19,19 @@
   --color-dots: #1a1a1a;
 }
 
+/* Added this part for credit link */
+.footer-copyright a:link,
+.footer-copyright a:visited {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:active {
+  color: #aaa;
+}
+
 /* Common styles */
 html {
   scroll-behavior: smooth;
